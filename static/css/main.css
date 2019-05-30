@@ -1,0 +1,131 @@
+.title1 b {
+    background-color: #ad2080 !important;
+}
+::selection {
+    background: #ad2080 !important
+}
+
+.btn-option  {
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+}
+
+.btn-option:hover {
+    color: #ad2080;
+    background: #fff;
+    border-color: #fff;
+}
+
+.btn-selected {
+    color: #ad2080;
+    background: #fff;
+    border-color: #fff;
+}
+
+.btn-default.btn1:hover {
+    color: #fff;
+    background: #ad2080;
+    border-color: #ad2080;
+}
+
+.btn-primary, .btn-primary:hover {
+    color: #fff;
+    background: #ad2080;
+    border-color: #ad2080;
+}
+
+.btn-default, .btn-default:hover {
+    color: #fff;
+    background: rgb(50, 74, 160);
+    border-color: rgb(50, 74, 160);
+}
+
+.slick-center .slick-slider-inner .caption .txt1 span {
+    background: #ad2080;
+}
+
+.slick-center .slick-slider-inner .caption .txt2 span {
+    background: #ad2080;
+}
+
+.btn-default.btn-cf-submit {
+    background-color: #ad2080 ;
+    border-color: #ad2080;
+}
+
+.song1_wrapper {
+    position: unset;
+}
+.song1 figure {
+    float: left;
+    margin-left: 30px;
+}
+
+.btn-default.btn0:hover {
+    color: #ad2080;
+    background: #fff;
+    border-color: #fff;
+}
+
+.artists1 .caption {
+    background-color: rgba(50, 74, 160, 0.77)
+}
+
+.navbar_ .navbar-toggle {
+    background: #ad2080 !important;
+}
+
+.sub-menu li a:hover {
+    background: #ad2080 !important;
+}
+
+.modal-header {
+    background: #1b1b1b;
+    border-bottom: 1px solid #222
+}
+.modal-title {
+    font-size: 26px
+}
+
+.modal-body {
+    background: #252525;    
+}
+
+.modal-footer {
+    background: #1b1b1b;
+    border-top: 1px solid #222
+}
+
+.btn-default.btn2 {
+    border-color: #ad2080
+}
+
+.btn-default.btn2:hover {
+    background: #ad2080;
+    border-color: #ad2080
+}
+
+.txt1 .txt {
+    color: 100px
+}
+.txt2 .txt {
+    color: 100px
+}
+.txt3 .txt {
+    color: 100px
+}
+
+.footer-icon {
+    font-size: 22px;
+    margin-right: 10px
+}
+
+.ad-banner {
+    height: 74px
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
