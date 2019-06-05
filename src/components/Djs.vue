@@ -15,7 +15,7 @@
                 br
                 br
                 .row
-                    .col-sm-4
+                    .col-sm-3
                         .artists1.clearfix.animated.fadeInUp
                             figure
                                 img.img-responsive(src='../assets/images/singer5.png', alt='')
@@ -34,23 +34,23 @@
                                 | Lunes a Viernes 10am a 3pm
                                 br
                                 | Domingos de 12 a 5pm en Sunroof
-                    .col-sm-4
-                        .artists1.clearfix.animated.fadeInUp
-                            figure
-                                img.img-responsive(src='../assets/images/singer3.png', alt='')
-                            .caption
-                                .txt2 Rony Campos
-                                .social2_wrapper
-                                    ul.social2.clearfix
-                                        li
-                                            a(href='mailto:rony@magic973.com')
-                                                i.fa.fa-envelope  
-                                                |  rony@magic973.com
-                                        //- li
-                                            a(href='#')
-                                                i.fa.fa-twitter
-                                | Lunes a Viernes de 6am a 10am
-                    .col-sm-4
+                    //- .col-sm-4
+                    //-     .artists1.clearfix.animated.fadeInUp
+                    //-         figure
+                    //-             img.img-responsive(src='../assets/images/singer3.png', alt='')
+                    //-         .caption
+                    //-             .txt2 Rony Campos
+                    //-             .social2_wrapper
+                    //-                 ul.social2.clearfix
+                    //-                     li
+                    //-                         a(href='mailto:rony@magic973.com')
+                    //-                             i.fa.fa-envelope  
+                    //-                             |  rony@magic973.com
+                    //-                     //- li
+                    //-                         a(href='#')
+                    //-                             i.fa.fa-twitter
+                    //-             | Lunes a Viernes de 6am a 10am
+                    .col-sm-3
                         .artists1.clearfix.animated.fadeInUp
                             figure
                                 img.img-responsive(src='../assets/images/singer1.png', alt='')
@@ -66,7 +66,7 @@
                                             a(href='#')
                                                 i.fa.fa-twitter
                                 | Viernes 5:30pm a 10pm en Magic Mix
-                    .col-sm-4
+                    .col-sm-3
                         .artists1.clearfix.animated.fadeInUp
                             figure
                                 img.img-responsive(src='../assets/images/singer2.png', alt='')
@@ -82,7 +82,7 @@
                                             a(href='#')
                                                 i.fa.fa-twitter
                                 | Lunes a Viernes 3pm a 7pm
-                    .col-sm-4
+                    .col-sm-3
                         .artists1.clearfix.animated.fadeInUp
                             figure
                                 img.img-responsive(src='../assets/images/singer4.png', alt='')
