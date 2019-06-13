@@ -64,9 +64,6 @@
                                     .form-group
                                         label Clave Mágica 1
                                         input.form-control(type='text', v-model="clave", placeholder='Clave Mágica 1')
-                                        .form-group
-                                        label Clave Mágica 2
-                                        input.form-control(type='text', v-model="clave2", placeholder='Clave Mágica 2')
                                     br
                                     //- .form-group(v-if="parseFile")
                                         | File: {{ parseFile._name }}
