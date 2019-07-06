@@ -21,7 +21,7 @@
                     .col-xs-6.col-sm-8.col-md-4.col-xs-offset-3.col-sm-offset-2.col-md-offset-2( style="text-align: center")
                         img.img-responsive(:src="contest.get('foto')._url")
                         br
-                        //- a(target="_blank", href="http://magic973.com/es/files/reglasweekend.pdf", v-if="$route.params.id == 'ltMSoSyBHD'") Reglas del Concurso
+                        a(target="_blank", href="http://magic973.com/es/files/reglasbacktoschool2019.pdf", v-if="$route.params.id == 'WbvwEHOX21'") Reglas del Concurso
                         a(target="_blank", href="http://magic973.com/es/files/costaricatripreglas.pdf", v-if="$route.params.id == 'tpe7HBqWqo'") Reglas del Concurso
                         //- a.btn.btn-primary(v-if="$route.params.id == 'EwcvEbh8qk'", href="/es/static/images/magicmom.png", download="yosoyunamagicmom.png" style="margin-left: 5px;") Descargar Imagen
                     template(v-if="submitted")
@@ -71,44 +71,43 @@
                                         label.btn.btn-primary(style="display: block; color: #fff") Upload Document
                                             input.hidden(type="file", hidden, @change="onFileChange")
                                 vue-ladda.btn-default.btn-cf-submit.pull-right(v-on:click='submit', data-style="expand-right", :loading="submitting") Participar
-                        //- template(v-else)
-                        //-   .col-xs-8.col-sm-8.col-md-4.col-xs-offset-2.col-md-offset-0
-                        //-         #ajax-contact-form.form-horizontal(action="javascript:alert('success!');")
-                        //-             .form-group
-                        //-                 label Nombre
-                        //-                 input.form-control(type='text', v-model="name", placeholder='Nombre')
-                        //-                 span#name-error.hidden Nombre es requerido
-                        //-             .form-group
-                        //-                 label Correo Electrónico
-                        //-                 input.form-control(type='email', v-model="email", placeholder='Correo Electrónico')
-                        //-                 span#email-error.hidden Correo Electrónico es requerido
-                        //-             .form-group
-                        //-                 label Teléfono
-                        //-                 input.form-control(type='text', v-model="phone", onkeypress='return event.charCode >= 48 && event.charCode <= 57', placeholder='Teléfono', maxlength="10")
-                        //-                 span#phone-error.hidden Teléfono es requerido
-                        //-             .form-group
-                        //-                 label Dirección
-                        //-                 textarea.form-control(type='address', v-model="address", placeholder='Dirección')
-                        //-                 span#address-error.hidden Teléfono es requerido
-                        //-             //- span#pass-error.hidden Contraseña debe contener al menos 8 caracteres
-                        //-         //- .form-group
-                        //-             label(for='inputConfirmPassword') Confirmar Contraseña
-                        //-             input#inputConfirmPassword.form-control(type='password', v-model="confirmPassword", placeholder='Confirmar Contraseña')
-                        //-             span#confirm-pass-error.hidden Contraseña debe contener al menos 8 caracteres
-                        //-         //- .form-group
-                        //-             label(for='inputDoB') Fecha de Nacimiento
-                        //-             input#inputPassword.form-control(type='date', v-model="regUser.dob", placeholder='Fecha de Nacimiento')
-                        //-             span#dob-error.hidden Fecha de Nacimiento es requerida
-                        //-         //- .radio
-                        //-             label(style="margin-right: 20px")
-                        //-                 input(type='radio', name='male', v-model="regUser.sex", :value="male")
-                        //-                 | Masculino
-                        //-             label
-                        //-                 input(type='radio', name='female', v-model="regUser.sex", :value="female")
-                        //-                 |   Femenino
-                        //-             br
-                        //-             span#sex-error.hidden Genero es requerido
-                        //-         vue-ladda.btn-default.btn-cf-submit.pull-right(v-on:click='submit', data-style="expand-right", :loading="submitting") Participar
+                        template(v-else)
+                        template(v-if="$route.params.id == 'WbvwEHOX21'")
+                            .col-xs-8.col-sm-8.col-md-4.col-xs-offset-2.col-md-offset-0
+                                #ajax-contact-form.form-horizontal(action="javascript:alert('success!');")
+                                    //- .form-group
+                                    //-     label(for='inputName')
+                                    //-     input#inputName.form-control(type='text', name='name', value='Full Name', onblur="if(this.value=='') this.value='Full Name'", onfocus="if(this.value =='Full Name' ) this.value=''")
+                                    //- .form-group
+                                    //-     label Ingresa la clave del día
+                                    //-     input.form-control(type="text", v-model="key", placeholder='Ingresa la clave del día')
+                                    //-     span#key-error.hidden Clave es requerida
+                                    .form-group
+                                        label Nombre
+                                        input.form-control(type='text', v-model="name", placeholder='Nombre')
+                                        span#name-error.hidden Nombre es requerido
+                                    .form-group
+                                        label Correo Electrónico
+                                        input.form-control(type='email', v-model="email", placeholder='Correo Electrónico')
+                                        span#email-error.hidden Correo Electrónico es requerido
+                                    .form-group
+                                        label Teléfono
+                                        input.form-control(type='text', v-model="phone", onkeypress='return event.charCode >= 48 && event.charCode <= 57', placeholder='Teléfono', maxlength="10")
+                                        span#phone-error.hidden Teléfono es requerido
+                                    .form-group
+                                        label Dirección
+                                        textarea.form-control(type='address', v-model="address", placeholder='Dirección')
+                                        span#address-error.hidden Dirección es requerida
+                                    //- .form-group
+                                    //-     label Clave Mágica 1
+                                    //-     input.form-control(type='text', v-model="clave", placeholder='Clave Mágica 1')
+                                    br
+                                    //- .form-group(v-if="parseFile")
+                                        | File: {{ parseFile._name }}
+                                    //- .form-group
+                                        label.btn.btn-primary(style="display: block; color: #fff") Upload Document
+                                            input.hidden(type="file", hidden, @change="onFileChange")
+                                vue-ladda.btn-default.btn-cf-submit.pull-right(v-on:click='submit', data-style="expand-right", :loading="submitting") Participar
 </template>
 <script>
 import Parse from 'parse'
