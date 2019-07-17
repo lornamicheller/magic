@@ -23,7 +23,7 @@
                 #slider_inner.clearfix
                     #slider.clearfix
                         #camera_wrap
-                            div(data-src='/es/static/images/tripmagic.jpg')
+                            //- div(data-src='/es/static/images/tripmagic.jpg')
                             div(data-src='/es/static/images/backtoschool.jpg')
                             //- div(data-src='/es/static/images/magiclatinoslider.jpg')
                             //- div(data-src='/es/static/images/slide05.jpg')
