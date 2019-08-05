@@ -23,8 +23,8 @@
                 #slider_inner.clearfix
                     #slider.clearfix
                         #camera_wrap
-                            //- div(data-src='/es/static/images/tripmagic.jpg')
-                            //- div(data-src='/es/static/images/magicbeachparty.png')
+                            div(data-src='/es/static/images/19deagosto.png')
+                            div(data-src='/es/static/images/radiomaraton.png')
                             //- div(data-src='/es/static/images/magiclatinoslider.jpg')
                             //- div(data-src='/es/static/images/slide05.jpg')
                             //- test
