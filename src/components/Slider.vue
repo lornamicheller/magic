@@ -23,9 +23,10 @@
                 #slider_inner.clearfix
                     #slider.clearfix
                         #camera_wrap
+                            div(data-src='/es/static/images/winetour.png')
+                            div(data-src='/es/static/images/morninglunvier.png')
                             div(data-src='/es/static/images/19deagosto.png')
                             div(data-src='/es/static/images/radiomaraton.png')
-                            //- div(data-src='/es/static/images/magiclatinoslider.jpg')
                             //- div(data-src='/es/static/images/slide05.jpg')
                             //- test
                             //- div(data-src='/magic/static/img/slide03.jpg')

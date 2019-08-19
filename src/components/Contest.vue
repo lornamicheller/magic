@@ -21,7 +21,7 @@
                     .col-xs-6.col-sm-8.col-md-4.col-xs-offset-3.col-sm-offset-2.col-md-offset-2( style="text-align: center")
                         img.img-responsive(:src="contest.get('foto')._url")
                         br
-                        a(target="_blank", href="http://magic973.com/es/files/reglasbacktoschool2019.pdf", v-if="$route.params.id == 'WbvwEHOX21'") Reglas del Concurso
+                        a(target="_blank", href="http://magic973.com/es/files/reglaswinetour.pdf", v-if="$route.params.id == 'LL0hPgQITk'") Reglas del Concurso
                         a(target="_blank", href="http://magic973.com/es/files/costaricatripreglas.pdf", v-if="$route.params.id == 'tpe7HBqWqo'") Reglas del Concurso
                         //- a.btn.btn-primary(v-if="$route.params.id == 'EwcvEbh8qk'", href="/es/static/images/magicmom.png", download="yosoyunamagicmom.png" style="margin-left: 5px;") Descargar Imagen
                     template(v-if="submitted")
@@ -35,7 +35,7 @@
                             //- form(method="get" action="http://magic973.com/es/files/Reglas-TaxRelief-2018.doc.pdf")
                                 button(type="submit") Reglas del Concurso
                     template(v-else)
-                        template(v-if="$route.params.id == 'tpe7HBqWqo'")
+                        template(v-if="$route.params.id == 'LL0hPgQITk'")
                             .col-xs-8.col-sm-8.col-md-4.col-xs-offset-2.col-md-offset-0
                                 #ajax-contact-form.form-horizontal(action="javascript:alert('success!');")
                                     //- .form-group
@@ -62,7 +62,7 @@
                                         textarea.form-control(type='address', v-model="address", placeholder='Dirección')
                                         span#address-error.hidden Dirección es requerida
                                     .form-group
-                                        label Clave Mágica 1
+                                        label Clave Mágica
                                         input.form-control(type='text', v-model="clave", placeholder='Clave Mágica 1')
                                     br
                                     //- .form-group(v-if="parseFile")
