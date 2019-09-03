@@ -23,7 +23,6 @@
                 #slider_inner.clearfix
                     #slider.clearfix
                         #camera_wrap
-                            div(data-src='/es/static/images/magicbaywatch.png')
                             div(data-src='/es/static/images/magicgana5000.png')
                             div(data-src='/es/static/images/winetour.png')
                             div(data-src='/es/static/images/morninglunvier.png')
@@ -70,7 +69,7 @@
                                 
 </template>
 <script>
-import Parse from 'parse'
+import Parse from "parse";
 export default {
   name: "Slider",
   props: ["show"],
@@ -80,7 +79,7 @@ export default {
         console.log("slider watcher", current);
         this.initSlider();
       }
-    },
+    }
   },
   mounted() {
     if (this.$route.path.toLowerCase() == "/") {
@@ -118,16 +117,19 @@ export default {
       }
     },
     getConcursos() {
-            var Concurso = Parse.Object.extend("Concurso")
-            var query = new Parse.Query(Concurso)
-            var self = this;
-            query.find().then(res => {
-                this.concursos = res
-                console.log("Concurso" + this.concursos)
-            }).catch(err => {
-                    console.log(err)
-                })
-        }
+      var Concurso = Parse.Object.extend("Concurso");
+      var query = new Parse.Query(Concurso);
+      var self = this;
+      query
+        .find()
+        .then(res => {
+          this.concursos = res;
+          console.log("Concurso" + this.concursos);
+        })
+        .catch(err => {
+          console.log(err);
+        });
+    }
   }
 };
 </script>
