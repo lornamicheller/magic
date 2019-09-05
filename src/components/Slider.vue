@@ -26,7 +26,7 @@
                             div(data-src='/es/static/images/magicgana5000.png')
                             div(data-src='/es/static/images/winetour.png')
                             div(data-src='/es/static/images/morninglunvier.png')
-                            div(data-src='/es/static/images/19deagosto.png')
+                            //- div(data-src='/es/static/images/19deagosto.png')
                             //- div(data-src='/es/static/images/radiomaraton.png')
                             //- div(data-src='/es/static/images/slide05.jpg')
                             //- test
