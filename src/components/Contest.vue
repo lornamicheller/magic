@@ -67,9 +67,9 @@
                                     br
                                     //- .form-group(v-if="parseFile")
                                         | File: {{ parseFile._name }}
-                                    //- .form-group
-                                        label.btn.btn-primary(style="display: block; color: #fff") Upload Document
-                                            input.hidden(type="file", hidden, @change="onFileChange")
+                                    //- //- .form-group
+                                    //-     label.btn.btn-primary(style="display: block; color: #fff") Upload Document
+                                    //-         input.hidden(type="file", hidden, @change="onFileChange")
                                 vue-ladda.btn-default.btn-cf-submit.pull-right(v-on:click='submit', data-style="expand-right", :loading="submitting") Participar
                         template(v-else)
                         template(v-if="$route.params.id == 'XkQwP5zKHv'")
